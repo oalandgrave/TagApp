@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074358D91991DC340000D44B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074358D81991DC340000D44B /* Foundation.framework */; };
+		074358DB1991DC340000D44B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074358DA1991DC340000D44B /* CoreGraphics.framework */; };
+		074358DD1991DC340000D44B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074358DC1991DC340000D44B /* UIKit.framework */; };
+		074358DF1991DC340000D44B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074358DE1991DC340000D44B /* CoreData.framework */; };
+		074358E51991DC340000D44B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074358E31991DC340000D44B /* InfoPlist.strings */; };
+		074358E71991DC340000D44B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074358E61991DC340000D44B /* main.m */; };
+		074358EB1991DC340000D44B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074358EA1991DC340000D44B /* AppDelegate.m */; };
+		074358EE1991DC340000D44B /* glkitTemplateGit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 074358EC1991DC340000D44B /* glkitTemplateGit.xcdatamodeld */; };
+		074358F01991DC340000D44B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074358EF1991DC340000D44B /* Images.xcassets */; };
+		074358F71991DC340000D44B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074358F61991DC340000D44B /* XCTest.framework */; };
+		074358F81991DC340000D44B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074358D81991DC340000D44B /* Foundation.framework */; };
+		074358F91991DC340000D44B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074358DC1991DC340000D44B /* UIKit.framework */; };
+		074358FA1991DC340000D44B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074358DE1991DC340000D44B /* CoreData.framework */; };
+		074359021991DC340000D44B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074359001991DC340000D44B /* InfoPlist.strings */; };
+		074359041991DC340000D44B /* glkitTemplateGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074359031991DC340000D44B /* glkitTemplateGitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		074358FB1991DC340000D44B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074358CD1991DC340000D44B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074358D41991DC340000D44B;
+			remoteInfo = glkitTemplateGit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074358D51991DC340000D44B /* glkitTemplateGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glkitTemplateGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074358D81991DC340000D44B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		074358DA1991DC340000D44B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		074358DC1991DC340000D44B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		074358DE1991DC340000D44B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		074358E21991DC340000D44B /* glkitTemplateGit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "glkitTemplateGit-Info.plist"; sourceTree = "<group>"; };
+		074358E41991DC340000D44B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		074358E61991DC340000D44B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		074358E81991DC340000D44B /* glkitTemplateGit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "glkitTemplateGit-Prefix.pch"; sourceTree = "<group>"; };
+		074358E91991DC340000D44B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		074358EA1991DC340000D44B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		074358ED1991DC340000D44B /* glkitTemplateGit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = glkitTemplateGit.xcdatamodel; sourceTree = "<group>"; };
+		074358EF1991DC340000D44B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		074358F51991DC340000D44B /* glkitTemplateGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glkitTemplateGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074358F61991DC340000D44B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		074358FF1991DC340000D44B /* glkitTemplateGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "glkitTemplateGitTests-Info.plist"; sourceTree = "<group>"; };
+		074359011991DC340000D44B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		074359031991DC340000D44B /* glkitTemplateGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = glkitTemplateGitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074358D21991DC340000D44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074358DB1991DC340000D44B /* CoreGraphics.framework in Frameworks */,
+				074358DF1991DC340000D44B /* CoreData.framework in Frameworks */,
+				074358DD1991DC340000D44B /* UIKit.framework in Frameworks */,
+				074358D91991DC340000D44B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074358F21991DC340000D44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074358F71991DC340000D44B /* XCTest.framework in Frameworks */,
+				074358FA1991DC340000D44B /* CoreData.framework in Frameworks */,
+				074358F91991DC340000D44B /* UIKit.framework in Frameworks */,
+				074358F81991DC340000D44B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074358CC1991DC340000D44B = {
+			isa = PBXGroup;
+			children = (
+				074358E01991DC340000D44B /* glkitTemplateGit */,
+				074358FD1991DC340000D44B /* glkitTemplateGitTests */,
+				074358D71991DC340000D44B /* Frameworks */,
+				074358D61991DC340000D44B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074358D61991DC340000D44B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074358D51991DC340000D44B /* glkitTemplateGit.app */,
+				074358F51991DC340000D44B /* glkitTemplateGitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074358D71991DC340000D44B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074358D81991DC340000D44B /* Foundation.framework */,
+				074358DA1991DC340000D44B /* CoreGraphics.framework */,
+				074358DC1991DC340000D44B /* UIKit.framework */,
+				074358DE1991DC340000D44B /* CoreData.framework */,
+				074358F61991DC340000D44B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		074358E01991DC340000D44B /* glkitTemplateGit */ = {
+			isa = PBXGroup;
+			children = (
+				074358E91991DC340000D44B /* AppDelegate.h */,
+				074358EA1991DC340000D44B /* AppDelegate.m */,
+				074358EF1991DC340000D44B /* Images.xcassets */,
+				074358EC1991DC340000D44B /* glkitTemplateGit.xcdatamodeld */,
+				074358E11991DC340000D44B /* Supporting Files */,
+			);
+			path = glkitTemplateGit;
+			sourceTree = "<group>";
+		};
+		074358E11991DC340000D44B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074358E21991DC340000D44B /* glkitTemplateGit-Info.plist */,
+				074358E31991DC340000D44B /* InfoPlist.strings */,
+				074358E61991DC340000D44B /* main.m */,
+				074358E81991DC340000D44B /* glkitTemplateGit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		074358FD1991DC340000D44B /* glkitTemplateGitTests */ = {
+			isa = PBXGroup;
+			children = (
+				074359031991DC340000D44B /* glkitTemplateGitTests.m */,
+				074358FE1991DC340000D44B /* Supporting Files */,
+			);
+			path = glkitTemplateGitTests;
+			sourceTree = "<group>";
+		};
+		074358FE1991DC340000D44B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074358FF1991DC340000D44B /* glkitTemplateGitTests-Info.plist */,
+				074359001991DC340000D44B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074358D41991DC340000D44B /* glkitTemplateGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074359071991DC340000D44B /* Build configuration list for PBXNativeTarget "glkitTemplateGit" */;
+			buildPhases = (
+				074358D11991DC340000D44B /* Sources */,
+				074358D21991DC340000D44B /* Frameworks */,
+				074358D31991DC340000D44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glkitTemplateGit;
+			productName = glkitTemplateGit;
+			productReference = 074358D51991DC340000D44B /* glkitTemplateGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		074358F41991DC340000D44B /* glkitTemplateGitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0743590A1991DC340000D44B /* Build configuration list for PBXNativeTarget "glkitTemplateGitTests" */;
+			buildPhases = (
+				074358F11991DC340000D44B /* Sources */,
+				074358F21991DC340000D44B /* Frameworks */,
+				074358F31991DC340000D44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074358FC1991DC340000D44B /* PBXTargetDependency */,
+			);
+			name = glkitTemplateGitTests;
+			productName = glkitTemplateGitTests;
+			productReference = 074358F51991DC340000D44B /* glkitTemplateGitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074358CD1991DC340000D44B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = omar;
+				TargetAttributes = {
+					074358F41991DC340000D44B = {
+						TestTargetID = 074358D41991DC340000D44B;
+					};
+				};
+			};
+			buildConfigurationList = 074358D01991DC340000D44B /* Build configuration list for PBXProject "glkitTemplateGit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 074358CC1991DC340000D44B;
+			productRefGroup = 074358D61991DC340000D44B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074358D41991DC340000D44B /* glkitTemplateGit */,
+				074358F41991DC340000D44B /* glkitTemplateGitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074358D31991DC340000D44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074358E51991DC340000D44B /* InfoPlist.strings in Resources */,
+				074358F01991DC340000D44B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074358F31991DC340000D44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074359021991DC340000D44B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074358D11991DC340000D44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074358EB1991DC340000D44B /* AppDelegate.m in Sources */,
+				074358EE1991DC340000D44B /* glkitTemplateGit.xcdatamodeld in Sources */,
+				074358E71991DC340000D44B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074358F11991DC340000D44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074359041991DC340000D44B /* glkitTemplateGitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		074358FC1991DC340000D44B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074358D41991DC340000D44B /* glkitTemplateGit */;
+			targetProxy = 074358FB1991DC340000D44B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		074358E31991DC340000D44B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074358E41991DC340000D44B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		074359001991DC340000D44B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074359011991DC340000D44B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		074359051991DC340000D44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		074359061991DC340000D44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		074359081991DC340000D44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glkitTemplateGit/glkitTemplateGit-Prefix.pch";
+				INFOPLIST_FILE = "glkitTemplateGit/glkitTemplateGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		074359091991DC340000D44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glkitTemplateGit/glkitTemplateGit-Prefix.pch";
+				INFOPLIST_FILE = "glkitTemplateGit/glkitTemplateGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0743590B1991DC340000D44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/glkitTemplateGit.app/glkitTemplateGit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glkitTemplateGit/glkitTemplateGit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "glkitTemplateGitTests/glkitTemplateGitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0743590C1991DC340000D44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/glkitTemplateGit.app/glkitTemplateGit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glkitTemplateGit/glkitTemplateGit-Prefix.pch";
+				INFOPLIST_FILE = "glkitTemplateGitTests/glkitTemplateGitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074358D01991DC340000D44B /* Build configuration list for PBXProject "glkitTemplateGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074359051991DC340000D44B /* Debug */,
+				074359061991DC340000D44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074359071991DC340000D44B /* Build configuration list for PBXNativeTarget "glkitTemplateGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074359081991DC340000D44B /* Debug */,
+				074359091991DC340000D44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0743590A1991DC340000D44B /* Build configuration list for PBXNativeTarget "glkitTemplateGitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0743590B1991DC340000D44B /* Debug */,
+				0743590C1991DC340000D44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		074358EC1991DC340000D44B /* glkitTemplateGit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				074358ED1991DC340000D44B /* glkitTemplateGit.xcdatamodel */,
+			);
+			currentVersion = 074358ED1991DC340000D44B /* glkitTemplateGit.xcdatamodel */;
+			path = glkitTemplateGit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 074358CD1991DC340000D44B /* Project object */;
+}
