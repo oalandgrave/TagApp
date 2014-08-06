@@ -22,6 +22,11 @@
 		074358FA1991DC340000D44B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074358DE1991DC340000D44B /* CoreData.framework */; };
 		074359021991DC340000D44B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074359001991DC340000D44B /* InfoPlist.strings */; };
 		074359041991DC340000D44B /* glkitTemplateGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074359031991DC340000D44B /* glkitTemplateGitTests.m */; };
+		0743590F1991DD1D0000D44B /* MenuViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0743590E1991DD1D0000D44B /* MenuViewController.mm */; };
+		074359131991DE5D0000D44B /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074359121991DE5D0000D44B /* MenuView.xib */; };
+		074359151991DFB70000D44B /* glm in Resources */ = {isa = PBXBuildFile; fileRef = 074359141991DFB70000D44B /* glm */; };
+		074359181991E2B80000D44B /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 074359161991E2B80000D44B /* SimpleVertex.glsl */; };
+		074359191991E2B80000D44B /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 074359171991E2B80000D44B /* SimpleFragment.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		074358FF1991DC340000D44B /* glkitTemplateGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "glkitTemplateGitTests-Info.plist"; sourceTree = "<group>"; };
 		074359011991DC340000D44B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		074359031991DC340000D44B /* glkitTemplateGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = glkitTemplateGitTests.m; sourceTree = "<group>"; };
+		0743590D1991DD1D0000D44B /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../MenuViewController.h; sourceTree = "<group>"; };
+		0743590E1991DD1D0000D44B /* MenuViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MenuViewController.mm; path = ../MenuViewController.mm; sourceTree = "<group>"; };
+		074359121991DE5D0000D44B /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		074359141991DFB70000D44B /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		074359161991E2B80000D44B /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		074359171991E2B80000D44B /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +126,12 @@
 		074358E01991DC340000D44B /* glkitTemplateGit */ = {
 			isa = PBXGroup;
 			children = (
+				074359141991DFB70000D44B /* glm */,
+				0743590D1991DD1D0000D44B /* MenuViewController.h */,
+				0743590E1991DD1D0000D44B /* MenuViewController.mm */,
+				074359121991DE5D0000D44B /* MenuView.xib */,
+				074359161991E2B80000D44B /* SimpleVertex.glsl */,
+				074359171991E2B80000D44B /* SimpleFragment.glsl */,
 				074358E91991DC340000D44B /* AppDelegate.h */,
 				074358EA1991DC340000D44B /* AppDelegate.m */,
 				074358EF1991DC340000D44B /* Images.xcassets */,
@@ -229,7 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				074358E51991DC340000D44B /* InfoPlist.strings in Resources */,
+				074359131991DE5D0000D44B /* MenuView.xib in Resources */,
+				074359181991E2B80000D44B /* SimpleVertex.glsl in Resources */,
 				074358F01991DC340000D44B /* Images.xcassets in Resources */,
+				074359151991DFB70000D44B /* glm in Resources */,
+				074359191991E2B80000D44B /* SimpleFragment.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +272,7 @@
 				074358EB1991DC340000D44B /* AppDelegate.m in Sources */,
 				074358EE1991DC340000D44B /* glkitTemplateGit.xcdatamodeld in Sources */,
 				074358E71991DC340000D44B /* main.m in Sources */,
+				0743590F1991DD1D0000D44B /* MenuViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,12 +387,14 @@
 		074359081991DC340000D44B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "glkitTemplateGit/glkitTemplateGit-Prefix.pch";
 				INFOPLIST_FILE = "glkitTemplateGit/glkitTemplateGit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$SOURCE_ROOT/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -378,12 +402,14 @@
 		074359091991DC340000D44B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "glkitTemplateGit/glkitTemplateGit-Prefix.pch";
 				INFOPLIST_FILE = "glkitTemplateGit/glkitTemplateGit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$SOURCE_ROOT/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
